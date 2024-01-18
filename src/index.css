@@ -8,3 +8,32 @@
 /* body {
   font-family: "Playfair Display", serif;
 } */
+@media screen and (max-width: 479px) {
+  .Home {
+    /* gap: 1rem; */
+    /* padding: 2rem; */
+    margin: 0;
+  }
+  .Home-inner {
+    gap: 1rem;
+  }
+  .Home p {
+    margin: 0;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 767px) and (min-width: 480px) {
+  .Home {
+    /* gap: 1rem; */
+    padding: 5rem 2rem;
+    margin: 0;
+  }
+  .Home-inner {
+    gap: 2rem;
+  }
+  .Home p {
+    margin: 0;
+    font-size: 14px;
+  }
+}
