@@ -11,7 +11,7 @@
 @media screen and (max-width: 479px) {
   .Home {
     /* gap: 1rem; */
-    min-height: fit-content;
+    /* min-height: fit-content; */
     margin: 0;
   }
   .Home-inner {
