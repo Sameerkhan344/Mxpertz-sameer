@@ -1,6 +1,5 @@
 import React from "react";
 import Testimonial from "./Layouts/TestimonialCard";
-import { Button } from "react-scroll";
 
 const Testimonal = () => {
   const Testidata = [
