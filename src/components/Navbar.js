@@ -3,7 +3,7 @@ import { FaCartShopping } from "react-icons/fa6";
 const Navbar = () => {
   return (
     <>
-      <nav className="flex flex-row items-center justify-between p-5 md:px-2 lg:px-2 px-5 bg-white border-b-[1px] border-solid border-black overflow-hidden">
+      <nav className="flex flex-row items-center justify-between p-5 md:px-2 lg:px-6 xl:px-12 px-5 bg-white border-b-[1px] border-solid border-black overflow-hidden">
         <div className="flex flex-row items-center cursor-pointer">
           <h1 className="font-semibold font-Pppins max-md:text-xl md:text-2xl">
             Restaurant Landing Page
