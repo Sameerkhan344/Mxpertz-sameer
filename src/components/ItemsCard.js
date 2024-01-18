@@ -114,7 +114,7 @@ const ItemsCard = () => {
               </h5>
               <div className="line w-20 h-0.5 bg-red-500 m-auto"></div>
             </span>
-            <h1 className="max-md:text-4xl md:text-5xl  font-Playfair  font-normal">
+            <h1 className="max-md:text-4xl md:text-5xl font-Playfair  font-normal">
               Fresh Ingredient, Tasty Meals
             </h1>
             <p className="text-[17px] font-Poppins font-medium opacity-80 tracking-wider leading-loose">
@@ -129,7 +129,7 @@ const ItemsCard = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-wrap max-md:px-0 md:px-0 lg:px-10 ">
+        <div className="flex flex-wrap max-md:px-0 md:px-0 lg:px-10 xl:px-32 ">
           {data.map((item, index) => (
             <Cards key={index} itemData={item} />
           ))}
