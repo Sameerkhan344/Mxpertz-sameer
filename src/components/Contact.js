@@ -7,8 +7,8 @@ import { FaGooglePlusG } from "react-icons/fa";
 const Contact = () => {
   return (
     <>
-      <div className="relative min-h-screen  bg-[url('../public/Assets/hero.avif')] bg-cover bg-center bg-no-repeat w-full bg-black-900 text-white overflow-hidden">
-        <div className="min-h-screen bg-black/70 flex items-center justify-center gap-32 max-md:gap-10 max-md:flex-col max-md:py-10 md:gap-10 md:flex-row md:py-10 ">
+      <div className="relative h-fit  bg-[url('../public/Assets/hero.avif')] bg-cover bg-center bg-no-repeat w-full bg-black-900 text-white overflow-hidden">
+        <div className="bg-black/70 flex  justify-center gap-32 max-md:gap-10 max-md:flex-col max-md:py-10 md:gap-10 md:flex-row md:py-10 ">
           <div className="leftCard w-[450px] h-[650px] rounded-md font-Playfair flex bg-[#181818] flex-col items-center text-center pt-20 leading-loose">
             <h1 className="text-xl pb-5">Hours of Operations</h1>
             <div className="font-Poppins">
